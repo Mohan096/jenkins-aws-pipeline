@@ -9,7 +9,7 @@ def launch_ec2_instance():
         MinCount=1,
         MaxCount=1,
         InstanceType='t2.micro',
-        KeyName='your-key-pair-name'
+        KeyName='Devops_OCT'
     )
 
     print(f'Launched EC2 Instance: {instances[0].id}')
